@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+@media screen (min-width:300px) {
+    nav {
+        font-size: 50px;
+    }
+}
+
 body {
     background-color: #d9dcd6;
     margin: 0;
