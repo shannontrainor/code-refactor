@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    margin: 0;
 }
 
 .header {
@@ -17,11 +18,13 @@ body {
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+
 }
 
 .header div {
@@ -29,7 +32,7 @@ body {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .header div ul {
@@ -41,17 +44,17 @@ body {
     margin-left: 25px;
 }
 
-.a {
+.header a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.p {
+p {
     font-size: 16px;
 }
 
 .hero {
-    height: 800px;
+    height: 1060px;
     width: 100%;
     max-width:100%;
     margin-bottom: 25px;
